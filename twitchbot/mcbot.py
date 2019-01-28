@@ -24,7 +24,6 @@ class MCBot():
             abs_path = os.path.join(dir, rel_path)
             with open(abs_path) as f:
                 words = f.read().split()
-                f.close()
             self.update_dict(words)
 
     def add_text(self, text):
@@ -143,7 +142,6 @@ class MCBot2():
             abs_path = os.path.join(dir, rel_path)
             with open(abs_path) as f:
                 words = f.read().split()
-                f.close()
             self.update_dict(words)
 
     def add_text(self, text):
