@@ -1,4 +1,4 @@
-# MC Bot
+# Twitch.tv Markov Chain Bot
 
 ## Description
 
